@@ -17,8 +17,8 @@
 # limitations under the License.
 #
 
-lang = node[:locale][:lang]
-lc_all = node[:locale][:lc_all]
+lang = node['locale']['lang']
+lc_all = node['locale']['lc_all']
 
 if platform?("ubuntu", "debian")
 
